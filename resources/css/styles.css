@@ -1,0 +1,42 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+body{
+    background-image: url("../images/background-tiles.png");
+}
+
+.flex{
+    display:  flex;
+    align-items: center;
+}
+
+nav ul li{
+    font-size: 1em;
+    margin-right: 30px;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+    font-size: 1.5rem;
+}
+nav ul li a .underline{
+    text-decoration: underline;
+    color: black;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: rgb(91, 72, 47);
+    text-decoration: underline rgb(255, 147, 31);
+}
+
+
+#name{
+    color: rgb(81, 15, 160);
+    flex: 1;
+    font-size: 2rem;
+}
